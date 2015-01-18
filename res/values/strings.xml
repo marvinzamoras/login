@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">APA</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="APA">APA</string>
+    <string name="login">Login</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="add">Click to add</string>
+    <string name="name">Name</string>
+    <string name="comment">Comments</string>
+    <string name="back">Back</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="i1">ITEM 1</string>
+    <string name="i2">ITEM 2</string>
+    <string name="i3">ITEM 3</string>
+
+</resources>

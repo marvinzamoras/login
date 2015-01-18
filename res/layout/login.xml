@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+    
+    <Button
+        android:id="@+id/backbutton"
+        android:text="@string/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    
+    <TextView 
+        android:id="@+id/firstName"
+        android:layout_below="@id/backbutton"
+        android:text="@string/fname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        />
+    <EditText 
+        android:width="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/firstName"
+        android:layout_alignBaseline="@id/firstName"
+        android:inputType="textPersonName"
+        android:background="#FFFFFF"
+        />
+    
+    <TextView 
+        android:id="@+id/lastName"
+        android:layout_below="@id/firstName"
+        android:layout_marginTop="20dp"
+        android:text="@string/lname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        />
+    <EditText 
+        android:width="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lastName"
+        android:layout_alignBottom="@id/lastName"
+        android:inputType="textPersonName"
+        android:background="#FFFFFF"
+        />
+    
+
+</RelativeLayout>
